@@ -24,7 +24,7 @@ const IconCSS = css`
 	cursor: pointer;
 	fill: var(--gray);
 
-	&:hover, &:active {
+	&:hover, &.active {
 		fill: var(--twitter);
 	}
 `;
