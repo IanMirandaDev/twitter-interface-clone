@@ -1,0 +1,6 @@
+# Dependency directories
+node_modules/
+
+# Root JS or TS files
+./*.js
+./*.ts

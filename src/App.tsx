@@ -4,13 +4,13 @@ import GlobalStyles from './styles/GlobalStyles';
 import Layout from './components/Layout';
 
 const App: FC = () => {
-	return (
-		<>
-			<Layout />
+  return (
+    <>
+      <Layout />
 
-			<GlobalStyles />
-		</>
-	);
+      <GlobalStyles />
+    </>
+  );
 };
 
 export default App;

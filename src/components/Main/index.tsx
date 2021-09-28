@@ -6,15 +6,15 @@ import BottomMenu from '../BottomMenu';
 import ProfilePage from '../ProfilePage';
 
 const Main: FC = () => {
-	return (
-		<Container>
-			<Header name="Ian Miranda" tweets={320} />
+  return (
+    <Container>
+      <Header name="Ian Miranda" tweets={320} />
 
-			<ProfilePage />
+      <ProfilePage />
 
-			<BottomMenu />
-		</Container>
-	);
+      <BottomMenu />
+    </Container>
+  );
 };
 
 export default Main;
