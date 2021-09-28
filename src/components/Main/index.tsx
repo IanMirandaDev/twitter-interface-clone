@@ -4,6 +4,7 @@ import { Container } from './styles';
 import Header from '../Header';
 import BottomMenu from '../BottomMenu';
 import ProfilePage from '../ProfilePage';
+import Feed from '../Feed';
 
 const Main: FC = () => {
   return (
@@ -11,6 +12,8 @@ const Main: FC = () => {
       <Header name="Ian Miranda" tweets={320} />
 
       <ProfilePage />
+
+      <Feed />
 
       <BottomMenu />
     </Container>
