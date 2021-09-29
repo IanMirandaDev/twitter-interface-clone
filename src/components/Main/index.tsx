@@ -9,7 +9,7 @@ import Feed from '../Feed';
 const Main: FC = () => {
   return (
     <Container>
-      <Header name="Ian Miranda" tweets={320} />
+      <Header />
 
       <ProfilePage />
 

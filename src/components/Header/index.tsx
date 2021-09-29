@@ -2,12 +2,7 @@ import React, { FC } from 'react';
 
 import { Container, BackIcon, ProfileInfo } from './styles';
 
-interface iHeader {
-  name: string;
-  tweets: number;
-}
-
-const Header: FC<iHeader> = ({ name, tweets }) => {
+const Header: FC = () => {
   return (
     <Container>
       <button>
@@ -15,8 +10,8 @@ const Header: FC<iHeader> = ({ name, tweets }) => {
       </button>
 
       <ProfileInfo>
-        <strong>{name}</strong>
-        <span>{tweets} Tweets</span>
+        <strong>Ian Miranda</strong>
+        <span>321 Tweets</span>
       </ProfileInfo>
     </Container>
   );
