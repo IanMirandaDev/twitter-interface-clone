@@ -16,8 +16,6 @@ export const Container = styled.div`
   > button {
     padding: 8px;
     border-radius: 50%;
-    outline: 0;
-    cursor: pointer;
 
     &:hover {
       background: var(--dark-hover);

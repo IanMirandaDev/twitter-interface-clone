@@ -31,10 +31,18 @@ export default createGlobalStyle`
 	}
 
 	*, button, input {
+    -webkit-tap-highlight-color: transparent;
 		border: 0;
 		background: none;
 		font-family: -apple-system, system-ui BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
 	}
+
+  button {
+    -webkit-user-select: none;
+    user-select: none;
+    outline: 0;
+    cursor: pointer;
+  }
 
 	html {
 		background: var(--primary);

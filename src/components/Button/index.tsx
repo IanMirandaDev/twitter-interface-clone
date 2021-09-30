@@ -9,8 +9,6 @@ export default styled.button<iButton>`
   border-radius: 25px;
   font-size: 15px;
   font-weight: bold;
-  cursor: pointer;
-  outline: 0;
 
   background: ${(props) => (props.outlined ? 'transparent' : 'var(--twitter)')};
   color: ${(props) => (props.outlined ? 'var(--twitter)' : 'var(--white)')};

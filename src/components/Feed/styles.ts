@@ -6,6 +6,8 @@ export const Container = styled.div`
 `;
 
 export const Tab = styled.div`
+  -webkit-user-select: none;
+  user-select: none;
   color: var(--twitter);
   padding: 10px 40px 15px;
   text-align: center;
