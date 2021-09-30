@@ -9,7 +9,7 @@ export const Tab = styled.div`
   -webkit-user-select: none;
   user-select: none;
   color: var(--twitter);
-  padding: 10px 40px 15px;
+  padding: 15px 40px;
   text-align: center;
   font-weight: bold;
   outline: 0;
@@ -21,7 +21,7 @@ export const Tab = styled.div`
   }
 
   &:hover {
-    background: var(--dark-hover);
+    background: var(--search);
   }
 `;
 

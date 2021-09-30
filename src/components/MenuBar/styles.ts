@@ -49,7 +49,7 @@ export const AppNav = styled.div`
   padding: 10px;
 
   &:hover {
-    background: var(--dark-hover);
+    background: var(--search);
     cursor: pointer;
   }
 
@@ -85,7 +85,7 @@ export const NavItem = styled.div`
   }
 
   &:hover {
-    background: var(--dark-hover);
+    background: var(--search);
     cursor: pointer;
   }
 
@@ -190,7 +190,7 @@ export const ProfileMenu = styled.div`
   align-items: center;
 
   &:hover {
-    background: var(--dark-hover);
+    background: var(--search);
     cursor: pointer;
   }
 

@@ -18,7 +18,7 @@ export const Container = styled.div`
     border-radius: 50%;
 
     &:hover {
-      background: var(--dark-hover);
+      background: var(--search);
     }
   }
 `;
