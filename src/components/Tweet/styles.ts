@@ -48,13 +48,20 @@ export const Header = styled.div`
 
   > strong {
     margin-right: 5px;
-    overflow: hidden;
+    white-space: nowrap;
   }
 
   > span,
   time {
     color: var(--gray);
     font-weight: 300;
+    white-space: nowrap;
+  }
+
+  > strong,
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 `;
 
