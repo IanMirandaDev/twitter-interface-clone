@@ -8,7 +8,7 @@ export const Container = styled.div`
   background: var(--secondary);
   margin-bottom: 15px;
   padding-top: 3px;
-  padding-bottom: 7px;
+  padding-bottom: 13px;
 `;
 
 export const Header = styled.div`
