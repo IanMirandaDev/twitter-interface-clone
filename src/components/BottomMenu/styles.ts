@@ -10,8 +10,8 @@ export const Container = styled.div`
   width: 100%;
   border-top: 1px solid var(--outline);
   display: flex;
-  justify-content: space-between;
-  padding: 8px min(46px, max(10vh, 10px));
+  justify-content: space-around;
+  padding: 8px;
 
   @media (min-width: 501px) {
     display: none;
