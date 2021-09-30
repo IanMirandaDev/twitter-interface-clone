@@ -26,6 +26,10 @@ export const Container = styled.div`
     display: none;
   }
 
+  @media (max-height: 570px) {
+    display: none;
+  }
+
   @media (max-width: 1279px) {
     align-items: center;
     width: 78px;
@@ -136,6 +140,7 @@ export const ProfileIcon = styled(Person)`
 
 export const TweetButton = styled(Button)`
   margin: 18px 17px;
+  flex-shrink: 0;
 
   > strong {
     font-size: 15px;
