@@ -3,7 +3,6 @@
 	twitter-interface-clone
 </h1>
 
-
 ### Access running project on Vercel [ianmiranda-twitter-clone.vercel.app](https://ianmiranda-twitter-clone.vercel.app/)
 
 <br>
