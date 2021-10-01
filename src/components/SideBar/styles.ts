@@ -9,64 +9,63 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 398px;
+  width: min(398px, 100%);
 
   @media (max-width: 999px) {
     display: none;
   }
 `;
 
-export const SearchBar = styled.div`
+export const SearchWrapper = styled.div`
   position: fixed;
   top: 0;
   z-index: 2;
-  width: 398px;
-  padding: 10px 24px;
+  display: flex;
+  width: min(398px, 100%);
+  padding: 9px 24px 10px;
   background: var(--primary);
 `;
 
-export const SearchLabel = styled.label`
-  margin-right: 15px;
-`;
-
-export const SearchIcon = styled(Search)`
-  height: 24px;
-  width: 24px;
-  fill: var(--gray);
-`;
-
-export const SearchBarContent = styled.div`
-  display: flex;
-  height: 40px;
-  padding: 8px 21px;
-
-  border-radius: 20px;
-  background: var(--secondary);
+export const SearchInput = styled.input`
+  width: 100%;
+  border-radius: 25px;
+  height: 39px;
+  background: var(--search);
+  padding: 12px 0 12px 56px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--gray);
+  outline: none;
   border: 1px solid transparent;
 
   &:hover {
-    background: var(--search);
+    background: var(--outline);
   }
 
-  &.active {
-    background: transparent;
+  &:focus {
+    background: var(--primary);
     border: 1px solid var(--twitter);
 
-    > ${SearchLabel} {
-      > ${SearchIcon} {
-        fill: var(--twitter);
-      }
+    ~ svg {
+      fill: var(--twitter);
     }
   }
 `;
 
-export const SearchInput = styled.input`
-  outline: none;
-  width: 100%;
-  font-size: 15px;
+export const SearchIcon = styled(Search)`
+  height: 28px;
+  width: 28px;
+
+  fill: var(--gray);
+
+  position: absolute;
+  top: 15px;
+  left: 40px;
 `;
 
 export const Panels = styled.div`
+  position: sticky;
+  top: 0;
   display: flex;
   flex-direction: column;
   margin-top: 63px;

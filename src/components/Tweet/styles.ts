@@ -40,11 +40,13 @@ export const Content = styled.div`
   flex-direction: column;
   width: 100%;
   margin-left: 10px;
+  overflow: hidden;
 `;
 
 export const Header = styled.div`
   display: flex;
   font-size: 15px;
+  align-items: center;
 
   > strong {
     margin-right: 5px;
@@ -70,10 +72,10 @@ export const Dot = styled.div`
   width: 3px;
   border-radius: 50%;
   background: var(--gray);
-  margin: auto 10px;
+  margin: 0 10px;
 `;
 
-export const Description = styled.div`
+export const Description = styled.p`
   font-size: 15px;
   margin-top: 8px;
 `;
@@ -84,12 +86,17 @@ export const Image = styled.div`
   background: var(--gray);
   margin-top: 15px;
   border-radius: 15px;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
 export const Actions = styled.div`
   display: flex;
+  align-items: center;
   width: 100%;
-  padding: 12px min(30px, 5vw) 0;
+  padding: 7px min(30px, 5vw) 0;
   justify-content: space-around;
 `;
 
@@ -123,7 +130,23 @@ export const HeartIcon = styled(Favorite)`
   }
 `;
 
+const CssActions = css`
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 15px;
+
+  &:hover {
+    background: var(--search);
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+`;
+
 export const Comments = styled.div`
+  ${CssActions}
+
   display: flex;
   align-items: center;
 
@@ -135,6 +158,8 @@ export const Comments = styled.div`
 `;
 
 export const Reactions = styled.div`
+  ${CssActions}
+
   display: flex;
   align-items: center;
 
@@ -154,6 +179,8 @@ export const Reactions = styled.div`
 `;
 
 export const Likes = styled.div`
+  ${CssActions}
+
   display: flex;
   align-items: center;
 
