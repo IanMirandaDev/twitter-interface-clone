@@ -28,32 +28,32 @@ const MenuBar: FC = () => {
       <NavMenu>
         <NavItem>
           <HomeIcon />
-          <strong>Página inicial</strong>
+          <strong>Home</strong>
         </NavItem>
 
         <NavItem>
           <BellIcon />
-          <strong>Notificações</strong>
+          <strong>Notifications</strong>
         </NavItem>
 
         <NavItem>
           <EmailIcon />
-          <strong>Mensagens</strong>
+          <strong>Messages</strong>
         </NavItem>
 
         <NavItem>
           <HeartIcon />
-          <strong>Favoritos</strong>
+          <strong>Favorites</strong>
         </NavItem>
 
         <NavItem className="active">
           <ProfileIcon />
-          <strong>Perfil</strong>
+          <strong>Profile</strong>
         </NavItem>
       </NavMenu>
 
       <TweetButton>
-        <strong>Tweetar</strong>
+        <strong>Tweet</strong>
       </TweetButton>
 
       <ProfileMenu>

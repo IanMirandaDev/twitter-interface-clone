@@ -24,7 +24,7 @@ const Tweet: FC = () => {
     <Container>
       <Retweeted>
         <RocketseatIcon />
-        <p>Você retuitou</p>
+        <p>retweeted</p>
       </Retweeted>
 
       <Body>
@@ -35,10 +35,10 @@ const Tweet: FC = () => {
             <strong>Ian Miranda</strong>
             <span>@miranda43</span>
             <Dot />
-            <time>28 de set</time>
+            <time>set 28</time>
           </Header>
 
-          <Description>Tweet massa dms</Description>
+          <Description>Incredible tweet content</Description>
 
           <Image />
 

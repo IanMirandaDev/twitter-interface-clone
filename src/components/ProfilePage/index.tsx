@@ -19,7 +19,7 @@ const ProfilePage: FC = () => {
       </Banner>
 
       <ProfileData>
-        <EditButton outlined>Editar perfil</EditButton>
+        <EditButton outlined>Set up profile</EditButton>
 
         <h1>Ian Miranda</h1>
         <h2>@miranda43</h2>
@@ -33,16 +33,16 @@ const ProfilePage: FC = () => {
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em Novembro de 2000
+            Born in November 2000
           </li>
         </ul>
 
         <Followage>
           <span>
-            seguindo <strong>132</strong>
+            following <strong>132</strong>
           </span>
           <span>
-            <strong>432</strong> seguidores
+            <strong>432</strong> followers
           </span>
         </Followage>
       </ProfileData>

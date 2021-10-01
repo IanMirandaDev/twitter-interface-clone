@@ -20,22 +20,22 @@ const SideBar: FC = () => {
   return (
     <Container>
       <SearchWrapper>
-        <SearchInput type="text" placeholder="Buscar no Twitter" />
+        <SearchInput type="text" placeholder="Search on Twitter" />
         <SearchIcon />
       </SearchWrapper>
 
       <Panels>
-        <SuggestionsPanel header="Talvez você curta">
+        <SuggestionsPanel header="You might like">
           <SuggestionContent>
             <Avatar />
 
             <SuggestionData>
-              <strong>Gustavo Luiz</strong>
-              <span>@luizgusta</span>
+              <strong>Adirane Cristina</strong>
+              <span>@adricristina</span>
             </SuggestionData>
 
             <FollowButton outlined>
-              <strong>Seguir</strong>
+              <strong>Follow</strong>
             </FollowButton>
           </SuggestionContent>
 
@@ -48,7 +48,7 @@ const SideBar: FC = () => {
             </SuggestionData>
 
             <FollowButton outlined>
-              <strong>Seguir</strong>
+              <strong>Follow</strong>
             </FollowButton>
           </SuggestionContent>
 
@@ -56,35 +56,35 @@ const SideBar: FC = () => {
             <Avatar />
 
             <SuggestionData>
-              <strong>Gustavo Luiz</strong>
-              <span>@luizgusta</span>
+              <strong>Jorge Oliveira</strong>
+              <span>@jorgeoli10</span>
             </SuggestionData>
 
             <FollowButton outlined>
-              <strong>Seguir</strong>
+              <strong>Follow</strong>
             </FollowButton>
           </SuggestionContent>
         </SuggestionsPanel>
 
-        <NewsPanel header="O que está acontecendo">
+        <NewsPanel header="What's happening">
           <NewsContent>
             <NewsData>
-              <span>Assuntos do momento</span>
-              <strong>Bootcamp de desenvolvimento web</strong>
+              <span>Current news</span>
+              <strong>An amazing news title</strong>
             </NewsData>
           </NewsContent>
 
           <NewsContent>
             <NewsData>
-              <span>Assuntos do momento</span>
-              <strong>Bootcamp de desenvolvimento web</strong>
+              <span>Current news</span>
+              <strong>An amazing news title</strong>
             </NewsData>
           </NewsContent>
 
           <NewsContent>
             <NewsData>
-              <span>Assuntos do momento</span>
-              <strong>Bootcamp de desenvolvimento web</strong>
+              <span>Current news</span>
+              <strong>An amazing news title</strong>
             </NewsData>
           </NewsContent>
         </NewsPanel>

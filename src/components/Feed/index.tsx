@@ -9,8 +9,8 @@ const Feed: FC = () => {
     <Container>
       <TabContainer>
         <Tab className="active">Tweets</Tab>
-        <Tab>Curtidas</Tab>
-        <Tab>Followers</Tab>
+        <Tab>Likes</Tab>
+        <Tab>Media</Tab>
       </TabContainer>
 
       <Tweets>
