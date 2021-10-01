@@ -1,46 +1,79 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> 
+	twitter-interface-clone
+</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+### Access running project on Vercel [ianmiranda-twitter-clone.vercel.app](https://ianmiranda-twitter-clone.vercel.app/)
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Developed with React JS, `twitter-interface-clone` it's a profile page from twitter based on Rocketseat template ([reference](https://youtu.be/K-8z_4xvT3o)). Is developed with the mobile first principle so, it's responsively adapted to any screen size.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The system use: 
+* `styled-components` for develop with CSS in JS
+* `styled-icons` as icons library 
+* `Typescript` as development 'language'
+* `Eslint` to code lint
+* `Prettier` to code style
+* `eslint-plugin-prettier` and `eslint-config-prettier` to make a better configuration between `Prettier` and `Eslint`
 
-### `yarn test`
+## Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### System requirements
 
-### `yarn build`
+Before start, check if you have installed and configured the following tools:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/en/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Editor requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The system is configured to a better code style with development tools like `Eslint` and `Prettier`, but to this tools work it's necessary to have installed and configured the following extensions in your code editor: 
 
-### `yarn eject`
+* [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) (more details in https://eslint.org/)
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (more details in https://prettier.io/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Cloning the repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clone this repository by running:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+git clone git@github.com:IanMiranda43/twitter-interface-clone.git
+```
 
-## Learn More
+### Installing the dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In the project folder run de following code. This will create a `node_modules` folder and download and install all the project dependencies in there. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# with npm
+npm install
+# with yarn
+yarn install
+```
+
+### Start the server:
+
+The script will run the migrations and then start the application at the port setted on the `.env` file.
+
+```bash
+# with npm
+npm run start
+# with yarn
+yarn start
+```
+
+## Access the page
+
+This can be found by accessing <a href="http://localhost:3000" target="blank">http://localhost:3000<a>
+
+<br>
+
+---
+
+## License
+
+MIT License © [Ian Miranda](https://github.com/IanMiranda43)
